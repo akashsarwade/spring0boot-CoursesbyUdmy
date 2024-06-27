@@ -1,0 +1,16 @@
+	Spring MVC for Beginers
+	
+	https://github.com/in28minutes/SpringMvcStepByStep/blob/master/Step01.md
+	
+	setting up with first java web application
+			\
+
+	create maven project
+		groupId-- package name
+		artifactId-applicationName
+		packaging war(web Archieve)
+		
+		
+		
+
+

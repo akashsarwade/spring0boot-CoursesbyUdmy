@@ -1,0 +1,16 @@
+package com.aksh.multi.threading;
+
+public class DeamonThreadDemo extends Thread {
+
+	public void run() {
+		System.err.println("Child Thread..");
+	}
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Main thread");
+		DeamonThreadDemo d=new DeamonThreadDemo();
+		d.start();
+		
+	}
+}

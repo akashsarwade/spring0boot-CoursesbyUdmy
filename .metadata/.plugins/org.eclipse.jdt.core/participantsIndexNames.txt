@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+C:\Udemy\SpringMVCBeginner\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2428827259.index
+\MyApp\src\main\java
+C:\Udemy\SpringMVCBeginner\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3782595108.index
+\spring-mvc-app\src\main\java
+C:\Udemy\SpringMVCBeginner\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3573428312.index
+\spring..nvc.app.2\src\main\java
+C:\Udemy\SpringMVCBeginner\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1670874337.index
+\My-MVC-Application\src\main\resources
+C:\Udemy\SpringMVCBeginner\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\871420118.index
+\spring-mvc-app\src\main\resources
+C:\Udemy\SpringMVCBeginner\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2512906188.index
+\HPlusApp\src\main\java

@@ -1,0 +1,12 @@
+package com.java.oops.multithreading;
+
+public class ThreadTest extends Thread {
+
+	public void run() {
+		for(int i=0; i<10;i++) {
+			System.out.println("THread: "+i);
+		}
+		System.out.println("Exit from ThreadClass");
+	}
+	
+}

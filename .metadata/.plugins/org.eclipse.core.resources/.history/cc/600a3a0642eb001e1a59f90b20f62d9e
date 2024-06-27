@@ -1,0 +1,16 @@
+package com.aksh.multi.threading;
+
+public class CreateThread extends Thread {
+
+	void run() {
+		System.out.println("I am RUn method of THread");
+	}
+
+	public static void main(String[] args) {
+		CreateThread ob = new CreateThread();
+		ob.run();
+
+//	how to create thread?
+
+	}
+}

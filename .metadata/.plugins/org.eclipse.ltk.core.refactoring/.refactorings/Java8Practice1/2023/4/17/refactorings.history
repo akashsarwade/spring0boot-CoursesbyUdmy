@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.java8.lambda.expsn.crash.course&apos; to &apos;com.java8.javaguide.lambda.expsn.crash.course&apos;&#x0D;&#x0A;- Original project: &apos;Practice1&apos;&#x0D;&#x0A;- Original element: &apos;Practice1/src/com.java8.lambda.expsn.crash.course&apos;&#x0D;&#x0A;- Renamed element: &apos;Practice1/src/com.java8.javaguide.lambda.expsn.crash.course&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.java8.lambda.expsn.crash.course&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.java8.lambda.expsn.crash.course" name="com.java8.javaguide.lambda.expsn.crash.course" qualified="false" references="true" stamp="1682597393979" textual="false" version="1.0"/>
+</session>

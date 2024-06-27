@@ -1,0 +1,11 @@
+package com.aksh.multi.threading;
+
+public class ThreadeCreateByInterface implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.aksh.multi.threading;
+
+public class ThreadMethods {
+
+	public static void main(String[] args) {
+		System.out.println("Hello");
+		System.out.println(Thread.currentThread().getName());
+	}
+}

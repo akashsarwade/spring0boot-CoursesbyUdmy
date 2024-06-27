@@ -1,0 +1,38 @@
+package com.aksh.multi.threading;
+
+class BookTheaterSeat {
+	int totalSeat = 10;
+
+	public void bookSeat(int seats) {
+		if (totalSeat >= seats) {
+			System.out.println("Seat Booked Successfully.");
+			totalSeat = totalSeat - seats;
+			System.out.println("Seats Left" + seats);
+
+		} else {
+			System.out.println("Seats Cann't book");
+			System.out.println("Seats Leaft" + seats);
+		}
+	}
+}
+
+public class MovieBookApp extends Thread {
+
+	static BookTheaterSeat b;
+	int seat;
+
+	public void run() {
+		b.bookSeat(seat);
+	}
+
+	public static void main(String[] args) {
+		b = new BookTheaterSeat();
+		MovieBookApp b = new MovieBookApp();
+		b.seat = 4;
+		b.start();
+
+		MovieBookApp b2 = new MovieBookApp();
+		b2.seat = 3;
+		b2.start();
+	}
+}

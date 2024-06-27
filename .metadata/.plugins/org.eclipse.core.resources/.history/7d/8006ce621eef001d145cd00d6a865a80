@@ -1,0 +1,5 @@
+package com.java8.javaguide.stream.api.crash.course;
+
+public class StreamListSortingExample {
+
+}
