@@ -1,0 +1,54 @@
+2022-12-13T14:47:42.316+05:30  INFO 4608 --- [restartedMain] c.product.api.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 18.0.1 with PID 4608 (C:\Udemy\SpringBootCourse\ProductRestAPI\target\classes started by asarwade in C:\Udemy\SpringBootCourse\ProductRestAPI)
+2022-12-13T14:47:42.324+05:30  INFO 4608 --- [restartedMain] c.product.api.ProductRestApiApplication  : The following 1 profile is active: "dev"
+2022-12-13T14:47:44.001+05:30  INFO 4608 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-13T14:47:44.002+05:30  INFO 4608 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-13T14:47:44.065+05:30  INFO 4608 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-13T14:47:44.311+05:30  INFO 4608 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-13T14:47:44.673+05:30  INFO 4608 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ab893dc
+2022-12-13T14:47:44.675+05:30  INFO 4608 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-13T14:47:44.718+05:30  INFO 4608 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-13T14:47:44.775+05:30  INFO 4608 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-13T14:47:44.942+05:30  WARN 4608 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-13T14:47:45.159+05:30  INFO 4608 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-13T14:47:45.852+05:30  INFO 4608 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-13T14:47:46.880+05:30  INFO 4608 --- [restartedMain] c.product.api.ProductRestApiApplication  : Started ProductRestApiApplication in 5.001 seconds (process running for 5.931)
+2022-12-13T14:49:18.312+05:30  INFO 4608 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-13T14:49:18.324+05:30  INFO 4608 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-13T14:49:18.334+05:30  INFO 4608 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-13T14:49:18.412+05:30  INFO 4608 --- [restartedMain] c.product.api.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 18.0.1 with PID 4608 (C:\Udemy\SpringBootCourse\ProductRestAPI\target\classes started by asarwade in C:\Udemy\SpringBootCourse\ProductRestAPI)
+2022-12-13T14:49:18.412+05:30  INFO 4608 --- [restartedMain] c.product.api.ProductRestApiApplication  : The following 1 profile is active: "dev"
+2022-12-13T14:49:18.799+05:30  INFO 4608 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-13T14:49:18.799+05:30  INFO 4608 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-13T14:49:18.822+05:30  INFO 4608 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-13T14:49:18.895+05:30  INFO 4608 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-12-13T14:49:18.929+05:30  INFO 4608 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f3034b9
+2022-12-13T14:49:18.930+05:30  INFO 4608 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-12-13T14:49:18.932+05:30  INFO 4608 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-13T14:49:18.936+05:30  WARN 4608 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-13T14:49:18.942+05:30  INFO 4608 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-13T14:49:18.971+05:30  INFO 4608 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-13T14:49:19.378+05:30  INFO 4608 --- [restartedMain] c.product.api.ProductRestApiApplication  : Started ProductRestApiApplication in 0.995 seconds (process running for 98.429)
+2022-12-13T14:49:27.274+05:30  INFO 4608 --- [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-13T14:49:27.282+05:30  INFO 4608 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-12-13T14:49:27.298+05:30  INFO 4608 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-12-13T14:49:29.630+05:30  INFO 16516 --- [restartedMain] c.product.api.ProductRestApiApplication  : Starting ProductRestApiApplication using Java 18.0.1 with PID 16516 (C:\Udemy\SpringBootCourse\ProductRestAPI\target\classes started by asarwade in C:\Udemy\SpringBootCourse\ProductRestAPI)
+2022-12-13T14:49:29.632+05:30  INFO 16516 --- [restartedMain] c.product.api.ProductRestApiApplication  : The following 1 profile is active: "dev"
+2022-12-13T14:49:31.100+05:30  INFO 16516 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-13T14:49:31.101+05:30  INFO 16516 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-13T14:49:31.163+05:30  INFO 16516 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-13T14:49:31.372+05:30  INFO 16516 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-13T14:49:31.697+05:30  INFO 16516 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d16ec10
+2022-12-13T14:49:31.699+05:30  INFO 16516 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-13T14:49:31.736+05:30  INFO 16516 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-13T14:49:31.782+05:30  INFO 16516 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-13T14:49:31.952+05:30  WARN 16516 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-13T14:49:32.131+05:30  INFO 16516 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-13T14:49:32.736+05:30  INFO 16516 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-13T14:49:33.565+05:30  INFO 16516 --- [restartedMain] c.product.api.ProductRestApiApplication  : Started ProductRestApiApplication in 4.318 seconds (process running for 5.093)
+2022-12-13T14:49:58.914+05:30  INFO 16516 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-13T14:50:04.088+05:30  INFO 16516 --- [http-nio-9090-exec-3] c.p.api.controller.ProductController     : finding all prodict
+2022-12-13T14:50:47.395+05:30  INFO 16516 --- [http-nio-9090-exec-4] c.p.api.controller.ProductController     : creating new product
+2022-12-13T14:56:03.645+05:30  INFO 16516 --- [RMI TCP Connection(17)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-13T14:56:03.646+05:30  INFO 16516 --- [RMI TCP Connection(17)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-13T14:56:03.658+05:30  INFO 16516 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-13T14:56:03.673+05:30  INFO 16516 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

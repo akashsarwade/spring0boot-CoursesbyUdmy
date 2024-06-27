@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.spring.rest.api.learn.controller.Controller&apos; to &apos;EmpController&apos;&#x0D;&#x0A;- Original project: &apos;REST-API-App&apos;&#x0D;&#x0A;- Original element: &apos;com.spring.rest.api.learn.controller.Controller&apos;&#x0D;&#x0A;- Renamed element: &apos;com.spring.rest.api.learn.controller.EmpController&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Controller&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.spring.rest.api.learn.controller{Controller.java[Controller" matchStrategy="1" name="EmpController" qualified="false" references="true" similarDeclarations="false" stamp="1681820217014" textual="false" version="1.0"/>
+</session>

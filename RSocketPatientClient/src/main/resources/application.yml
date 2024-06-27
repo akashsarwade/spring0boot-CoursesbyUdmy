@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydn
+    username: root
+    password: root
+    
+  jpa:
+    show-sql: true
+    
+server:
+  servlet:
+    context-path: /productapi
+    
+
+      

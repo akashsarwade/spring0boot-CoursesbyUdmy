@@ -1,0 +1,27 @@
+#debug=true
+
+#
+spring.datasource.url=jdbc:mysql://localhost:3306/crudapp
+##?useSSL=false
+spring.datasource.username=root 
+spring.datasource.password=root
+	
+##Hibernate Properties
+##spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
+
+##this property automatically create tabke if not exists
+spring.jpa.hibernate.ddl-auto=update
+
+
+
+
+#Check you are hibernating configuration
+
+#spring.datasource.url=jdbc:mysql://localhost:3306/crudapp
+#spring.datasource.username=root
+#spring.datasource.password=root
+##spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#spring.jpa.database-platform = org.hibernate.dialect.MySQL5Dialect
+##spring.jpa.generate-ddl=true
+#spring.jpa.hibernate.ddl-auto = update
